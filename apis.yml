@@ -1,20 +1,48 @@
 aid: via-global-health
 name: Via Global Health
-description: Via Global Health is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Via Global Health (VIA Global Health) is a medical equipment and pharmaceutical supplier
+  serving distributors, healthcare providers, and NGOs across Africa, Asia, and Latin America. The
+  company sources quality diagnostic equipment, surgical instruments, maternal and reproductive health
+  devices, infection control and sterilization equipment, cold chain and laboratory supplies, and
+  pharmaceutical-grade consumables from vetted manufacturers, and handles logistics, compliance, and
+  last-mile delivery for low-resource health settings. Buyers request USD-priced quotes on any product
+  page and receive a response within 24 hours, guided by an AI assistant named Amara. It is a
+  quote-and-fulfillment marketplace with no publicly documented developer API surface; a private,
+  robots-disallowed /api/* backs the storefront only. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/via-global-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://via-global-health-ai-enabled.replit.app/opengraph.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-public
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Medical Devices
+- Medical Equipment
+- Healthcare
+- Pharmaceuticals
+- Supply Chain
+- Global Health
+- Africa
+- E-Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/via-global-health-domain-security.yml
+- type: LLMsTxt
+  url: llms/via-global-health-llms.txt
 - type: Website
   url: https://viaglobalhealth.com
+- type: PrivacyPolicy
+  url: https://viaglobalhealth.com/privacy-policy
+- type: Support
+  url: https://viaglobalhealth.com/contact
+- type: About
+  url: https://viaglobalhealth.com/about
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
